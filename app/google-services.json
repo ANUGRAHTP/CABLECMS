@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1029554563053",
+    "firebase_url": "https://cablecms-d654c.firebaseio.com",
+    "project_id": "cablecms-d654c",
+    "storage_bucket": "cablecms-d654c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029554563053:android:c8e94f090fb33f506c69e4",
+        "android_client_info": {
+          "package_name": "com.anugrah.cablecms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1029554563053-orn9si1ambimh2cfh2gvqfptvhbv1fe8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anugrah.cablecms",
+            "certificate_hash": "b13966607982241e7765ed0d672dad73f9361fe9"
+          }
+        },
+        {
+          "client_id": "1029554563053-qphvkplfu7nm7vb1s0gjacrjqojj8vhm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiKEDtF8Rtb32ldQ99zv6wA9JvAjQttUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1029554563053-qphvkplfu7nm7vb1s0gjacrjqojj8vhm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,34 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <Button
+        android:id="@+id/adminbt"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="ADMINISTRATOR"
+        android:layout_marginBottom="25dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttondesign"/>
+    <Button
+        android:id="@+id/customerbt"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="CUSTOMER"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/buttondesign"/>
+
+    <Button
+        android:id="@+id/workerbt"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/buttondesign"
+        android:text="WORKER"
+        android:textColor="#ffffff" />
+</LinearLayout>
