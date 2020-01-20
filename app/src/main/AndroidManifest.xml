@@ -9,9 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".viewCustomerAccount"></activity>
+        <activity android:name=".viewNotificationPage" />
+        <activity android:name=".viewComplaintsPage" />
+        <activity android:name=".addNewWorkerPage" />
+        <activity android:name=".addNewUserpage" />
         <activity
             android:name=".adminPage"
-            android:label="@string/title_activity_admin_page"></activity>
+            android:label="@string/title_activity_admin_page" />
         <activity android:name=".workerLogin" />
         <activity android:name=".userLogin" />
         <activity android:name=".adminLogin" />

@@ -33,7 +33,7 @@ public class adminLogin extends AppCompatActivity {
 
                 if (adminId.equals("1234") && adminPass.equals("1234"))
                 {
-                    Toast.makeText(getApplicationContext(),"Login Success",Toast.LENGTH_LONG);
+                    Toast.makeText(getApplicationContext(),"Login Success",Toast.LENGTH_LONG).show();
                     Intent intent=new Intent(getApplicationContext(),adminPage.class);
                     startActivity(intent);
 
@@ -41,7 +41,7 @@ public class adminLogin extends AppCompatActivity {
                 }
                 else{
 
-                    Toast.makeText(getApplicationContext(),"Login fail",Toast.LENGTH_LONG);
+                    Toast.makeText(getApplicationContext(),"Login fail",Toast.LENGTH_LONG).show();
                 }
 
 

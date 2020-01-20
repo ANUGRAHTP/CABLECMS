@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:textColor="#24A8E8"
+        android:text="REGISTRATION"
+        />
+    <TextView
+        android:id="@+id/nameadduserTv"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="NAME:"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/nameadduserEt"
+        android:layout_width="250dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttondesign"
+        android:inputType="textPersonName"
+        android:layout_height="50dp"/>
+    <TextView
+        android:id="@+id/placeadduserTv"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="PLACE:"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/placeadduserEt"
+        android:layout_width="250dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttondesign"
+        android:inputType="textPersonName"
+        android:layout_height="50dp"/>
+    <TextView
+        android:id="@+id/addressAddUserTv"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="ADDRESS:"
+        android:textColor="#ffffff" />
+
+    <EditText
+
+        android:id="@+id/addressAddUserEt"
+        android:background="@drawable/buttondesign"
+        android:layout_width="250dp"
+        android:textColor="#ffffff"
+        android:inputType="textLongMessage"
+        android:layout_height="50dp"/>
+    <TextView
+        android:id="@+id/phAdduserTv"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="PHONE NO:"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/phAdduserEt"
+        android:layout_width="250dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttondesign"
+        android:inputType="phone"
+        android:layout_height="50dp"/>
+    <TextView
+        android:id="@+id/EmailAddUserTv"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="E-mail Id:"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/EmailAddUserEt"
+        android:layout_width="250dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttondesign"
+        android:inputType="textEmailAddress"
+        android:layout_height="50dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btaddNewUser"
+        android:background="@drawable/buttondesign"
+        android:text="Register"
+        android:layout_marginTop="25dp"
+        android:textColor="#ffff"/>
+
+</LinearLayout>

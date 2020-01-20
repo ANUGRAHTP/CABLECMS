@@ -11,6 +11,7 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 public class adminPage extends AppCompatActivity {
+    addNewUserModel userModel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
